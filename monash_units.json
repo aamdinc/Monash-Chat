@@ -4004,5 +4004,15 @@
   "SCM5100": " MSc Prelim research project",
   "SCM5200": " MSc Prelim coursework",
   "STA1010": " Statistical methods for science",
+  "MED1011": " Medicine Year 1 Semester 1",
+  "MED1022": " Medicine Year 1 Semester 2",
+  "MED2011": " Medicine Year 2 Semester 1",
+  "MED2022": " Medicine Year 2 Semester 2",
+  "MED3011": " Medicine Year 3 Semester 1",
+  "MED3022": " Medicine Year 3 Semester 2",
+  "MED4011": " Medicine Year 4 Semester 1",
+  "MED4022": " Medicine Year 4 Semester 2",
+  "MED5011": " Medicine Year 5 Semester 1",
+  "MED5022": " Medicine Year 5 Semester 2",
   "STA2216": " Data analysis for science"
 }
