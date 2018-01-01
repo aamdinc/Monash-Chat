@@ -525,7 +525,7 @@
         unit_to_join = unit_to_join.toUpperCase();
 
 
-        firebase.database().ref('/monash_units/' + unit_to_join).once('value').then(function (snapshot) {
+        firebase.database().ref('/chats/' + unit_to_join).once('value').then(function (snapshot) {
             var value = snapshot.val();
             if (value) {
                 selected_unit = unit_to_join;
