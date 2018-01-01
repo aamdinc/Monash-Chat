@@ -90,8 +90,8 @@
 
     </style>
     
-<script>
-function startTime() {
+    <script>
+    function startTime() {
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
@@ -101,21 +101,15 @@ function startTime() {
     document.getElementById('txt').innerHTML =
     h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
+    }
+    function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
-}
-</script>    
+    }
+    </script>    
 
 </head>
 
-<body onload="startTime()">
-
-<div id="txt"></div>
-
-</body>    
-    
 <body onunload="user_closed_state()">
 <div class="navbar-fixed">
     <nav>
@@ -129,6 +123,10 @@ function checkTime(i) {
         </div>
     </nav>
 </div>
+    
+<body onload="startTime()">
+
+<div id="txt"></div>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
